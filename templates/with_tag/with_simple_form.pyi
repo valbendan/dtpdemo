@@ -1,0 +1,3 @@
+world: str
+
+hello: int
