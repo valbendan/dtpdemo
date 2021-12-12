@@ -1,3 +1,5 @@
 from typing import Dict
 
-value: Dict[str, int]
+from web.models import DemoModel
+
+value: Dict[str, DemoModel]
