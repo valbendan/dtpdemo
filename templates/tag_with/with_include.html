@@ -1,0 +1,4 @@
+{% with title="用户登录" content="注册账号" class="button is-danger" %}
+    {% url "register:mobile" as register_url %}
+    {% include "tag_with/x.html" with title=title content=content url=register_url %}
+{% endwith %}
