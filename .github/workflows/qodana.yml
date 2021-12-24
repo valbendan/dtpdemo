@@ -30,6 +30,6 @@ jobs:
       - name: Qodana Scan
         uses: JetBrains/qodana-action@v4.1.1
         with:
-          project-dir: cool
+          linter: jetbrains/qodana-python
 
 
