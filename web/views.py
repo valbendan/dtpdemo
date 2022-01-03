@@ -12,3 +12,7 @@ class Demo(TemplateView):
         ctx["world"] = "cool"
         ctx["hello"] = "world"
         return ctx
+
+
+class Hello(TemplateView):
+    template_name = "hello.html"
