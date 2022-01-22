@@ -2,6 +2,6 @@
 
 {% include "hello.html" with demo=demo_value.title data_list=demo_value.world %}
 
-{% include "hello.html" with demo=demo_value %}
+{% include "hello.html" with demo=demo_value %} {# lack of parameter #}
 
-{% include "hello.html" with demo=demo_value.title %}
+{% include "hello.html" with demo=demo_value.title %} {# lack of parameter #}
