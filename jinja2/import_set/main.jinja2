@@ -1,3 +1,3 @@
 {% from 'import_set/demo_macro.jinja2' import demo_macro %}
-{% set demo_value =  "demo_value" %}
+{% set demo_value = hello.title ~ "demo_value" %}
 {{ demo_macro(demo_value) }}

@@ -2,12 +2,15 @@
 
 Typed Django Template plugin demo src
 
+[![Get on JetBrains Marketplace](./img/maketplace.png)](https://plugins.jetbrains.com/plugin/18232-typed-django-template)
+
 ## Features
 
 - Django template variable code complete
 - Django template variable usage inspection
 - Jump to variable declaration
 - Quick documentation for django template variable
+- Mark pyi stub file ad global declaration file for Django Template (version: 2022.3.1)
 
 ## Usage
 
