@@ -1,0 +1,5 @@
+{% for hello in data_list %}
+    {% if forloop.first %}
+        {{ hello.title }}
+    {% endif %}
+{% endfor %}
