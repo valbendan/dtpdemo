@@ -6,7 +6,8 @@ authors = ["valbendan <valbendan@hotmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Django = "^3.2.9"
+
+django = ">=4.0,<4.1"
 
 [tool.poetry.dev-dependencies]
 black = "*"
